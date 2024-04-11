@@ -7,12 +7,13 @@
 4) The final_algo.ipynb file creates an individual Random Forest Model and predicts the predicted signal for the whole dataset in order to plot the graph
 5) The trained model if saved in the model_sig.sav file so it can be used in the following manner:
    
-   import joblib
-   model_sig = joblib.load('model_sig.sav')
+   import joblib\n
+   model_sig = joblib.load('model_sig.sav')\n
    pred = model_sig.predict()
    
 6) Graph.png is the output graph from the trained model
-7) Skills used in this project are:
+7) Deep Learning was not used as it was a case os classification with only 936 data points whereas deep learning requires a huge dataset.
+8) Skills used in this project are:
    - Feature extraction
    - EDA
    - Outlier Detection(Not necessary in this scenario as outliers are crucial for our model)
