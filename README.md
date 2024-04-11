@@ -7,8 +7,8 @@
 4) The final_algo.ipynb file creates an individual Random Forest Model and predicts the predicted signal for the whole dataset in order to plot the graph
 5) The trained model if saved in the model_sig.sav file so it can be used in the following manner:
    
-   import joblib\n
-   model_sig = joblib.load('model_sig.sav')\n
+   import joblib<br>
+   model_sig = joblib.load('model_sig.sav')<br>
    pred = model_sig.predict()
    
 6) Graph.png is the output graph from the trained model
