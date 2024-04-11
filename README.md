@@ -12,7 +12,7 @@
    pred = model_sig.predict()
    
 6) Graph.png is the output graph from the trained model
-7) Deep Learning was not used as it was a case os classification with only 936 data points whereas deep learning requires a huge dataset.
+7) Deep Learning was not used as it was a case of classification with only 936 data points whereas deep learning requires a huge dataset.
 8) Skills used in this project are:
    - Feature extraction
    - EDA
